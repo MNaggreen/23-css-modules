@@ -1,0 +1,19 @@
+.info {
+  border: 2px solid grey;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 40%;
+  margin: 20px auto;
+}
+
+.myOtherButton {
+  background-color: coral;
+}
+/* рекомендуется использовать camelCase для названий классов */
+
+h2 {
+    color: blue
+}
+
+/* h2 стили так же пременются хотя и
+ неотобразяться в самом обьекте + она будет работать глобально */
