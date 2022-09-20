@@ -1,4 +1,4 @@
-import './Info.css'
+import './info.css'
 /* Так как мы привязали Info.css к файлу 
 Info.js наш файл со с
 тилями привязался глобально и теперь мы 
@@ -26,6 +26,7 @@ function Info() {
       {/* в файле Info.modules.css содержаться стили для нашего h2
       и они применятся нормально */} 
       <button className="my-button">Click me in the info component</button>
+      <hr/>
       <button className={styles.myOtherButton}>Button with local css styles</button>
     {/* Обращение к файлу со стилями и сразу к классу
         который содержит в себе эти стили  */}
